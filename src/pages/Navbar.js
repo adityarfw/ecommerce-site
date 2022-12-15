@@ -12,10 +12,20 @@ export const Navbar = () => {
         </div>
         <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
           <li className='nav-item'>
-            <Link to='/'>Store</Link>
+            <Link
+              to='/'
+              className='navbar-items badge rounded-pill text-bg-light'
+            >
+              Store
+            </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/cart'>Cart</Link>
+            <Link
+              to='/cart'
+              className='navbar-items badge rounded-pill text-bg-dark'
+            >
+              Cart
+            </Link>
           </li>
         </ul>
       </nav>
